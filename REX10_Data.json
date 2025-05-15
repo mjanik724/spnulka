@@ -1,6 +1,6 @@
 {
   "REX05": {
-    "#HeaderText": "Select Receiving Area22",
+    "REX05HeaderText": "Select Receiving Area22",
     "#SelectedMaterial": "Chip",
     "#REX10HeaderText": "Chip Material Orders",
     "#isNotChip": false,
