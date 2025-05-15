@@ -1,0 +1,190 @@
+{
+  "REX05": {
+    "#HeaderText": "Select Receiving Area",
+    "#SelectedMaterial": "Chip",
+    "#REX10HeaderText": "Chip Material Orders",
+    "#isNotChip": false,
+    "#isChip": true,
+    "#isSponge": false,
+    "#isBulk": false
+  },
+  "REX10": {
+    "Chip": [
+      {
+        "PONo": "P001",
+        "LineNo": "02",
+        "LotNo": "L001",
+        "Grade": "G3",
+        "Qty": "29",
+        "Status": "New",
+        "StatusColor": "#ADD8E6",
+        "RemainingToPutAway": "String value",
+        "Rejected": "0",
+        "MaterialType": "Chip"
+      },
+      {
+        "PONo": "AP00019",
+        "LineNo": "02",
+        "LotNo": "L002",
+        "Grade": "G3",
+        "Qty": "30",
+        "Status": "Started",
+        "StatusColor": "#90EE90",
+        "RemainingToPutAway": "--",
+        "Rejected": "---",
+        "MaterialType": "Chip"
+      },
+      {
+        "PONo": "R0001",
+        "LineNo": "01",
+        "LotNo": "L0001",
+        "Grade": "G2",
+        "Qty": "25",
+        "Status": "Started",
+        "StatusColor": "#A3E635",
+        "RemainingToPutAway": "--",
+        "Rejected": "0",
+        "MaterialType": "Chip"
+      }
+    ],
+    "Bulk": [
+      {
+        "PONo": "PO004",
+        "LineNo": "20",
+        "LotNo": "MT00420",
+        "Grade": "G2",
+        "Qty": "444.000",
+        "Status": "New",
+        "StatusColor": "#ADD8E6",
+        "RemainingToPutAway": "0",
+        "Rejected": "---",
+        "MaterialType": "Bulk"
+      },
+      {
+        "PONo": "PO004",
+        "LineNo": "30",
+        "LotNo": "MT00430",
+        "Grade": "G2",
+        "Qty": "900.000",
+        "Status": "Started",
+        "StatusColor": "#90EE90",
+        "RemainingToPutAway": "--",
+        "Rejected": "---",
+        "MaterialType": "Bulk"
+      },
+      {
+        "PONo": "R0002",
+        "LineNo": "02",
+        "LotNo": "L0002",
+        "Grade": "G1",
+        "Qty": "35",
+        "Status": "New",
+        "StatusColor": "#70B1DA",
+        "RemainingToPutAway": "--",
+        "Rejected": "1",
+        "MaterialType": "Bulk"
+      }
+    ],
+    "Sponge": [
+      {
+        "PONo": "PO004",
+        "LineNo": "40",
+        "LotNo": "MT00450",
+        "Grade": "G1",
+        "Qty": "655.000",
+        "Status": "New",
+        "StatusColor": "#ADD8E6",
+        "RemainingToPutAway": "--",
+        "Rejected": "---",
+        "MaterialType": "Sponge"
+      },
+      {
+        "PONo": "R0003",
+        "LineNo": "03",
+        "LotNo": "L0003",
+        "Grade": "G3",
+        "Qty": "20",
+        "Status": "New",
+        "StatusColor": "#70B1DA",
+        "RemainingToPutAway": "--",
+        "Rejected": "2",
+        "MaterialType": "Sponge"
+      },
+      {
+        "PONo": "P010",
+        "LineNo": "11",
+        "LotNo": "L010",
+        "Grade": "G1",
+        "Qty": "18",
+        "Status": "Started",
+        "StatusColor": "#90EE90",
+        "RemainingToPutAway": "--",
+        "Rejected": "---",
+        "MaterialType": "Sponge"
+      }
+    ],
+    "Alloy": [
+      {
+        "PONo": "P004",
+        "LineNo": "05",
+        "LotNo": "L004",
+        "Grade": "G4",
+        "Qty": "40",
+        "Status": "Started",
+        "StatusColor": "#90EE90",
+        "RemainingToPutAway": "--",
+        "Rejected": "---",
+        "MaterialType": "Alloy"
+      },
+      {
+        "PONo": "P011",
+        "LineNo": "12",
+        "LotNo": "L011",
+        "Grade": "G2",
+        "Qty": "27",
+        "Status": "New",
+        "StatusColor": "#ADD8E6",
+        "RemainingToPutAway": "--",
+        "Rejected": "4",
+        "MaterialType": "Alloy"
+      },
+      {
+        "PONo": "P012",
+        "LineNo": "13",
+        "LotNo": "L012",
+        "Grade": "G3",
+        "Qty": "33",
+        "Status": "Started",
+        "StatusColor": "#90EE90",
+        "RemainingToPutAway": "--",
+        "Rejected": "---",
+        "MaterialType": "Alloy"
+      }
+    ]
+  },
+  "REXGlobal": {
+    "Disable": 20,
+    "Number": 0,
+    "Data": {
+      "PONo": "---",
+      "LineNo": "---",
+      "LotNo": "---",
+      "Grade": "---",
+      "Qty": "---",
+      "Status": "---",
+      "StatusColor": "#ADD8E6",
+      "RemainingToPutAway": "--",
+      "Rejected": "---"
+    },
+    "State": {
+      "StartButtonOpacity": 20,
+      "CompleteButtonOpacity": 20,
+      "RejectEntireLoadOpacity": 20,
+      "PrintContainersLabelOpacity": 20,
+      "RejectMaterialOpacity": 20,
+      "PutAwayContainersOpacity": 20,
+      "PrintSampleLabelOpacity": 20,
+      "RecordWeightOpacity": 20
+    }
+  }
+}
